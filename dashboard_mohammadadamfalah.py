@@ -31,18 +31,18 @@ st.write("- **ID:** 7385665")
 #Pengolahan data-----------------------------------------------------------------------------------------------
 
 # Mengambil data
-aotizhongxin = pd.read_csv("D:\AnalisisDataAirQuality\dataset\PRSA_Data_Aotizhongxin_20130301-20170228.csv")
-changping = pd.read_csv("D:\AnalisisDataAirQuality\dataset\PRSA_Data_Changping_20130301-20170228.csv")
-dingling = pd.read_csv("D:\AnalisisDataAirQuality\dataset\PRSA_Data_Dingling_20130301-20170228.csv")
-dongsi = pd.read_csv("D:\AnalisisDataAirQuality\dataset\PRSA_Data_Dongsi_20130301-20170228.csv")
-guanyuan = pd.read_csv("D:\AnalisisDataAirQuality\dataset\PRSA_Data_Guanyuan_20130301-20170228.csv")
-gucheng = pd.read_csv("D:\AnalisisDataAirQuality\dataset\PRSA_Data_Gucheng_20130301-20170228.csv")
-huairou = pd.read_csv("D:\AnalisisDataAirQuality\dataset\PRSA_Data_Huairou_20130301-20170228.csv")
-nongzhanguan = pd.read_csv("D:\AnalisisDataAirQuality\dataset\PRSA_Data_Nongzhanguan_20130301-20170228.csv")
-shunyi = pd.read_csv("D:\AnalisisDataAirQuality\dataset\PRSA_Data_Shunyi_20130301-20170228.csv")
-tiantan = pd.read_csv("D:\AnalisisDataAirQuality\dataset\PRSA_Data_Tiantan_20130301-20170228.csv")
-wanliu = pd.read_csv("D:\AnalisisDataAirQuality\dataset\PRSA_Data_Wanliu_20130301-20170228.csv")
-wanshouxigong = pd.read_csv("D:\AnalisisDataAirQuality\dataset\PRSA_Data_Wanshouxigong_20130301-20170228.csv")
+aotizhongxin = pd.read_csv("./dataset/PRSA_Data_Aotizhongxin_20130301-20170228.csv")
+changping = pd.read_csv("./dataset/PRSA_Data_Changping_20130301-20170228.csv")
+dingling = pd.read_csv("./dataset/PRSA_Data_Dingling_20130301-20170228.csv")
+dongsi = pd.read_csv("./dataset/PRSA_Data_Dongsi_20130301-20170228.csv")
+guanyuan = pd.read_csv("./dataset/PRSA_Data_Guanyuan_20130301-20170228.csv")
+gucheng = pd.read_csv("./dataset/PRSA_Data_Gucheng_20130301-20170228.csv")
+huairou = pd.read_csv("./dataset/PRSA_Data_Huairou_20130301-20170228.csv")
+nongzhanguan = pd.read_csv("./dataset/PRSA_Data_Nongzhanguan_20130301-20170228.csv")
+shunyi = pd.read_csv("./dataset/PRSA_Data_Shunyi_20130301-20170228.csv")
+tiantan = pd.read_csv("./dataset/PRSA_Data_Tiantan_20130301-20170228.csv")
+wanliu = pd.read_csv("./dataset/PRSA_Data_Wanliu_20130301-20170228.csv")
+wanshouxigong = pd.read_csv("./dataset/PRSA_Data_Wanshouxigong_20130301-20170228.csv")
 
 #Menggabungkan data
 data_frames = [aotizhongxin, changping, dingling, dongsi, guanyuan, gucheng, huairou, nongzhanguan, shunyi, tiantan, wanliu, wanshouxigong]

@@ -240,7 +240,7 @@ st.markdown("""
     > Walaupun tidak jauh berbeda nilainya, tetapi curah hujan tertinggi berada di stasiun Wanliu dengan nilai curah hujan 0.068261
 
 2. **Berapa lama rata-rata pengiriman paket pengiriman paket terlama ? dari mana ke mana?**
-    > Stasiun yang memiliki suhu terendah adalah stasiun Huairou dengan nilai 41.6, dan stasiun yang memiliki suhu tertinggi adalah stasiun Guchen dengan niali -19.9
+    > Stasiun yang memiliki suhu terendah adalah stasiun Huairou dengan nilai -19.9, dan stasiun yang memiliki suhu tertinggi adalah stasiun Guchen dengan nilai 41.6
 
 3. **Bagian hari apa yang sering digunakan oleh pembeli untuk melakukan transaksi?**
     > Suhu udara atau temperatur memiliki korelasi yang lemah terhadap CO yang bernilai -0.26, dan berkorelasi negatif
